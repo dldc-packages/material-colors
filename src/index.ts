@@ -1,2 +1,2 @@
 export { MaterialColors } from './MaterialColors';
-export { InterpolatedMaterialColors as default, ColorName } from './InterpolatedMaterialColors';
+export { InterpolatedMaterialColors, ColorName } from './InterpolatedMaterialColors';
