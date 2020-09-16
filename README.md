@@ -11,8 +11,8 @@ yarn add interpolated-material-colors
 ## Gist
 
 ```ts
-import Colors from 'interpolated-material-colors';
+import { InterpolatedMaterialColors } from 'interpolated-material-colors';
 
-Colors.red(500);
-Colors.red(710);
+InterpolatedMaterialColors.red(500);
+InterpolatedMaterialColors.red(710);
 ```
