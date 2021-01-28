@@ -7,6 +7,7 @@ export type InterpolatedMaterialColors = {
   [K in ColorName]: (v: number) => string;
 };
 
+// eslint-disable-next-line no-redeclare
 export const InterpolatedMaterialColors: InterpolatedMaterialColors = Object.keys(
   MaterialColors
 ).reduce<InterpolatedMaterialColors>((acc, key) => {
