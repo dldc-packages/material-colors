@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   interpolated-colors:
-    specifier: ^2.0.1
-    version: 2.0.1
+    specifier: ^3.0.1
+    version: 3.0.1
 
 devDependencies:
   '@types/node':
@@ -1199,16 +1199,17 @@ packages:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
     dependencies:
       color-name: 1.1.3
+    dev: true
 
   /color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
     engines: {node: '>=7.0.0'}
     dependencies:
       color-name: 1.1.4
-    dev: true
 
   /color-name@1.1.3:
     resolution: {integrity: sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==}
+    dev: true
 
   /color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
@@ -1220,10 +1221,11 @@ packages:
       simple-swizzle: 0.2.2
     dev: false
 
-  /color@3.2.1:
-    resolution: {integrity: sha512-aBl7dZI9ENN6fUGC7mWpMTPNHmWUSNan9tuWN6ahh5ZLNk9baLJOnSMlrQkHcrfFgz2/RigjUVAjdx36VcemKA==}
+  /color@4.2.3:
+    resolution: {integrity: sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==}
+    engines: {node: '>=12.5.0'}
     dependencies:
-      color-convert: 1.9.3
+      color-convert: 2.0.1
       color-string: 1.9.1
     dev: false
 
@@ -2254,10 +2256,10 @@ packages:
       side-channel: 1.0.4
     dev: true
 
-  /interpolated-colors@2.0.1:
-    resolution: {integrity: sha512-2IyhT38vLqCxXUI5qQyY8pXjKaLIhKxqX5+pujRI8rdiTqA0cy20ndyuOfykeJAJ7loCRpyFhTUt34PRC2+5lA==}
+  /interpolated-colors@3.0.1:
+    resolution: {integrity: sha512-9rR4ml1+/qHLQ9SwjKGkT9SXOu9j79YB3JFFFoHMZFYAfdhTF1ZKWm4tyn8XQkzijMQ8LbX5Ah3xvqtYyrE+Jg==}
     dependencies:
-      color: 3.2.1
+      color: 4.2.3
     dev: false
 
   /interpret@1.4.0:
