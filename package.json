@@ -1,15 +1,15 @@
 {
-  "name": "interpolated-material-colors",
+  "name": "@dldc/material-colors",
   "version": "2.0.2",
   "description": "A tool to create dynamic colors by interpolating multiple colors",
   "keywords": [],
-  "homepage": "https://github.com/etienne-dldc/interpolated-material-colors#readme",
+  "homepage": "https://github.com/dldc-packages/material-colors#readme",
   "bugs": {
-    "url": "https://github.com/etienne-dldc/interpolated-material-colors/issues"
+    "url": "https://github.com/dldc-packages/material-colors/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/etienne-dldc/interpolated-material-colors.git"
+    "url": "git+https://github.com/dldc-packages/material-colors.git"
   },
   "license": "MIT",
   "author": "Etienne Dldc <e.deladonchamps@gmail.com>",
