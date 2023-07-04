@@ -1,2 +1,2 @@
-export { MaterialColors } from './MaterialColors';
-export { InterpolatedMaterialColors, ColorName } from './InterpolatedMaterialColors';
+export * from './InterpolatedMaterialColors';
+export * from './MaterialColors';
