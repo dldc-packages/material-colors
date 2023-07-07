@@ -9,7 +9,7 @@ export type InterpolatedMaterialColors = {
 
 // eslint-disable-next-line no-redeclare
 export const InterpolatedMaterialColors: InterpolatedMaterialColors = Object.keys(
-  MaterialColors
+  MaterialColors,
 ).reduce<InterpolatedMaterialColors>((acc, key) => {
   const name: ColorName = key as any;
   const values: Points = [[0, '#ffffff'], ...MaterialColors[name], [1000, '#000000']];
