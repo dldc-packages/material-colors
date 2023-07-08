@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  interpolated-colors:
-    specifier: ^3.0.1
-    version: 3.0.1
+  '@dldc/colors':
+    specifier: ^3.0.2
+    version: 3.0.2
 
 devDependencies:
   '@types/node':
@@ -86,6 +86,12 @@ packages:
   /@bcoe/v8-coverage@0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
+
+  /@dldc/colors@3.0.2:
+    resolution: {integrity: sha512-lMjAr69EWRoE6hQ+4cyOs/VRKPh/gkLLxLSDWEDGiH66BiVzSpbDjo8O2tKhen3dkSnJDSY/qPTDiftRFlS4CA==}
+    dependencies:
+      color: 4.2.3
+    dev: false
 
   /@esbuild/android-arm64@0.18.11:
     resolution: {integrity: sha512-snieiq75Z1z5LJX9cduSAjUr7vEI1OdlzFPMw0HH5YI7qQHDd3qs+WZoMrWYDsfRJSq36lIA6mfZBkvL46KoIw==}
@@ -2262,12 +2268,6 @@ packages:
       has: 1.0.3
       side-channel: 1.0.4
     dev: true
-
-  /interpolated-colors@3.0.1:
-    resolution: {integrity: sha512-9rR4ml1+/qHLQ9SwjKGkT9SXOu9j79YB3JFFFoHMZFYAfdhTF1ZKWm4tyn8XQkzijMQ8LbX5Ah3xvqtYyrE+Jg==}
-    dependencies:
-      color: 4.2.3
-    dev: false
 
   /interpret@1.4.0:
     resolution: {integrity: sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==}
