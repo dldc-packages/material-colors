@@ -1,2 +1,6 @@
-export * from './InterpolatedMaterialColors';
-export * from './MaterialColors';
+export {
+  InterpolatedMaterialColors,
+  type IInterpolatedMaterialColors,
+  type TColorName,
+} from './InterpolatedMaterialColors';
+export { MaterialColors } from './MaterialColors';

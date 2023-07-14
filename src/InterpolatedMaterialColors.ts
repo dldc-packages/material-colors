@@ -2,17 +2,17 @@ import type { Points } from '@dldc/colors';
 import { InterpolatedColor } from '@dldc/colors';
 import { MaterialColors } from './MaterialColors';
 
-export type ColorName = keyof typeof MaterialColors;
+export type TColorName = keyof typeof MaterialColors;
 
-export type InterpolatedMaterialColors = {
-  [K in ColorName]: (v: number) => string;
+export type IInterpolatedMaterialColors = {
+  [K in TColorName]: (v: number) => string;
 };
 
 // eslint-disable-next-line no-redeclare
-export const InterpolatedMaterialColors: InterpolatedMaterialColors = Object.keys(
+export const InterpolatedMaterialColors: IInterpolatedMaterialColors = Object.keys(
   MaterialColors,
-).reduce<InterpolatedMaterialColors>((acc, key) => {
-  const name: ColorName = key as any;
+).reduce<IInterpolatedMaterialColors>((acc, key) => {
+  const name: TColorName = key as any;
   const values: Points = [[0, '#ffffff'], ...MaterialColors[name], [1000, '#000000']];
   const color = InterpolatedColor(values);
   acc[name] = (val: number) => {
