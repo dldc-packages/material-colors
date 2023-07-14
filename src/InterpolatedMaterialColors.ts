@@ -1,4 +1,5 @@
-import { InterpolatedColor, Points } from '@dldc/colors';
+import type { Points } from '@dldc/colors';
+import { InterpolatedColor } from '@dldc/colors';
 import { MaterialColors } from './MaterialColors';
 
 export type ColorName = keyof typeof MaterialColors;
