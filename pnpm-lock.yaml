@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@dldc/colors':
-    specifier: ^3.0.3
-    version: 3.0.3
+    specifier: ^3.0.4
+    version: 3.0.4
 
 devDependencies:
   '@types/node':
@@ -91,8 +91,8 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@dldc/colors@3.0.3:
-    resolution: {integrity: sha512-TQCLuj898SMQ/e+SazhAa7n0QdQo1rANJVoJiUJ7Yv6/mMPiyOvf+aRQ/12SKizsAlCyKWWlY78ErF9IoUWgzw==}
+  /@dldc/colors@3.0.4:
+    resolution: {integrity: sha512-CPlwFDjZJRewkaqksWhLiuHWm6g6oTno3dSN9E20Lw5hxTCqcug4tmZDSoQW2jT/pb9L7UuuR7kzNM1zhkSqmg==}
     dependencies:
       color: 4.2.3
     dev: false
